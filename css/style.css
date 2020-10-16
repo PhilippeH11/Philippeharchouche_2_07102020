@@ -1,11 +1,29 @@
-p
-{
-    color: #0065FC;
+/*##################################*/
+/*############# GRILLE #############*/
+/*#################################*/
+
+.container {
+    width: 1440px;
+  }
+
+/*Formulaire de recherche*/
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
 }
 
-body
+input,
+label {
+    margin: .4rem 0;
+}
 
-{font-family: 'raleway', serif;
- font-size: 24px;
- background-color: #F2F2F2;
+.site-search {
+    color: #0065FC;
+}
+/*Body*/
+
+body {
+font-family: 'Raleway', sans-serif;
+font-size: medium;
+background-color: #F2F2F2;
 }

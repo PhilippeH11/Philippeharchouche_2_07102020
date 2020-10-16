@@ -1,28 +1,68 @@
+<!DOCTYPE html>
 <html>
-        <head>
-           <link type="text/css" rel="stylesheet" href="css/style.css">
-           <link rel="stylesheet" href="css/all.min.css"/>
-           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=raleway">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet"> 
+        <link href="/css/all.css" rel="stylesheet"> <!--load all styles FontAwesome-->
+        <title>Reservia</title>
+    </head>
 
-            <title>Bienvenue sur Réservia</title>
-            <style>
-                body {
-                  font-family: 'raleway', serif;
-                  font-size: 48px;
-                }
-              </style>
-          
-        </head>
+    <body>
+        <!--Header-->
+        <header>
+            {]Logo} 
+            Trouvez votre hébergement pour des vacances de rêve
+            En plein centre ville ou en pleine nature
+        </header>
 
+        <menu>Hébergements Activités s'inscrire</menu>
+        <section id="Recherche">
+            <label for="site-search"></label>
+            <input type="search" id="site-search" name="q"
+            aria-label="Rechercher dans le site">
+            <button>Rechercher</button>
+        </section>
 
-                <body>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae porro itaque qui nisi incidunt corporis dolore odio tenetur necessitatibus ratione iusto, earum quidem nulla praesentium repudiandae impedit? Dolorum, ullam!</p>
-                    <i class="far fa-gem"></i>
-                    <i class="far fa-gem" style="font-size: 50px; color: red"></i>
-                    <i class="fab fa-accessible-icon" style="font-size: 50px; color: blue;"></i>
-                    <i class="fab fa-amazon" style="font-size: 40px; color: aquamarine;"></i>
-                </body>
+        <section id="Filtres">Filtres
+            <i class="far fa-money-bill-wave">Economique</i>
+            <i class="far fa-child">Familial</i>
+            <i class="far fa-heart">Romantique</i>
+            <i class="far fa-dog">Animaux Autorisés</i>
+            <i class="far fa-info">Plus de XX logements sont disponibles dans cette ville</i>
+        </section>
 
+        <!--Section 1-->
+        <section id="hebergement">Hébergement à marseille          
+        </section>
+        <sidebar>Les plus populaires</sidebar>
 
+        <!--Section 2-->
+        <section id="Activites">Activités à Marseille
+        </section>
+        
+        
+        <!--Footer-->
+        <footer>
+            <section id="About">A propos
+                <li>
+                    Fonctionnement du site
+                    Conditions générales de vente
+                    Données et confidentialités
+                </li>
+            </section>
+            
+            <section id="Rent">Nos Hébergements
+                <li>
+                    Charte Qualité
+                    Soumettre votre Hôtel
+                </li>
+            </section>
+            
+            <section id="Help"></section>Assistance
+                Centre d'aide
+                Nous contacter
+            </section>
+        </footer>
 
-    </html>
+    </body>
+</html>
