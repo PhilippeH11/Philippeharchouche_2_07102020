@@ -1,11 +1,28 @@
+h1{
+    background-color: rgb(12, 20, 40);
+    border: 5px blueviolet outset;
+    border-radius: 20px / 10px;
+    box-shadow: 6px 6px 6px black;
+}
+
 p
 {
-    color: #0065FC;
+   background-color: rgba(10,10, 10, 0.3)
+    
 }
 
 body
 
 {font-family: 'raleway', serif;
- font-size: 24px;
+ font-size: 1.5em;
  background-color: #F2F2F2;
+}
+
+.imageflottante
+{
+    float: left;
+}
+.dessous
+{
+    clear: both;
 }
