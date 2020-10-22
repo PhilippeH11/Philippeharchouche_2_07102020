@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet"> 
-        <link href="/css/all.css" rel="stylesheet"> <!--load all styles FontAwesome-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&ampdisplay=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        
+        <link type="text/css" rel="stylesheet" href="css/style.css">
         <title>Reservia</title>
-<body>
-    <!--Header-->
-    <img src="images/logo/Reservia.svg" alt="Logo réservia" height="60" width="128"/>
-     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div> 
+    <body>
+      
+        <!--Header-->
+        <header>
+          <img src="images/logo/Reservia.svg" alt="Logo Reservia"/><br>
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>
+          En plein centre ville ou en pleine nature
+        </header>
 
+        <nav><!--Menu Navigation haut droite -->
+            <a href="#hebergement">Hébergement</a>
+            <a href="#activites">Activités</a>
+            <a href="#">s'Inscrire</a>
+        </nav> <!--Menu Navigation haut droite -->
 
-</body>
+        <section id="recherche"><!--Formulaire de Recherche-->
+            <label for="site-search"></label>
+            <i class="fas fa-map-marker-alt"></i><input type="text" value="Marseille, France" />
+            <button>Rechercher</button>
+        </section>
+
+        <section id="filtres"><h3>Filtres</h3> <!--Filtres de recherche-->
+            <i class="fas fa-money-bill-wave"></i><strong>Economique</strong>
+            <i class="fa fa-child"></i><strong>Familial</strong>
+            <i class="fa fa-heart"></i><strong>Romantique</strong>
+            <i class="fa fa-dog"></i><strong>Animaux Autorisés</strong><br>
+            <i class="fa fa-info"></i>Plus de XX logements sont disponibles dans cette ville
+        </section>
+
+        <!--Hébergement-->
+        <section id="hebergement">
+          <p id="hebergement"><h2>Hébergement à marseille</h2></p></section>
+        <sidebar>Les plus populaires</sidebar>
+
+        <!--Activités-->
+        <section id="activites"><p id="activites"><h2>Activités à Marseille</h2></p></section>
+        
+        
+        <!--Footer/ Pied de page-->
+        <footer >
+            <section id="about"><h3>A propos</h3>
+             <ul>
+                <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialités</li>
+                 </li>
+              </ul>  
+            </section>
+            
+            <section id="rent">Nos Hébergements
+              <ul>
+                <li>
+                    Charte Qualité
+                    Soumettre votre Hôtel
+                </li>
+              </ul>
+            </section>
+            
+            <section id="help"></section>Assistance
+              <ul>
+              <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+
+              </ul>  
+            </section>
+        </footer>
+
+    </body>
 </html>

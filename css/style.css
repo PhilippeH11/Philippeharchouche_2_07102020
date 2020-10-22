@@ -1,12 +1,52 @@
- /* Add a black background color to the top navigation */
- .topnav {
-    background-color: #333;
+ /* Titles, H1, H2, H3*/
+h1{
+  font-size: medium;
+}
+h2{
+  font-size: small;
+}
+
+h3 {
+  font-size: x-small;
+}
+nav {
+      float: right;
+      display: block;
+      color: #0065FC;
+               
+}
+
+/* Liens de la page */
+a:visited {
+  color: #DEEBFF ;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #0065FC;
+  border-top: 2px solid;
+  padding-top: 5px;
+}
+
+/* Boutons de la page */
+button {
+	padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#0065FC;
+	color:#fff;
+  border-radius: 0px 10px 10px 0px;
+	width:100px;
+	border:none;
+}
+
+ li {
     overflow: hidden;
+    text-decoration: none;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
