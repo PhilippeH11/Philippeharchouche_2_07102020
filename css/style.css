@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Reservia - Philippe H */
-/* GLOBAL */
+/* Global - Règles générales */
 :root {
   --clr: #0065fc;
   --clr-ltr: #deebff;
@@ -42,7 +42,7 @@ a {
 
 /* HEADER */
 
-/* navbar */
+/* Navbar */
 .navbar {
   display: flex;
   flex-flow: row wrap;
@@ -75,7 +75,7 @@ a {
   font-weight: bold;
 }
 
-/* banner */
+/* Banner */
 .banner {
   padding: 1em 20px;
 }
@@ -179,7 +179,7 @@ form .search {
   display: none;
 }
 
-/* accomodation & activities */
+/* Accomodation & activities */
 .bloc {
   padding: 1em;
 }
@@ -225,7 +225,7 @@ form .search {
   justify-items: stretch;
 }
 
-/* city */
+/* City */
 .card-city {
   margin: 10px 0;
 }
